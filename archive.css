@@ -7,6 +7,7 @@ nav [id$="moreContainer"] li{display:block!important;visibility:visible!importan
 nav [id$="moreContainer"] li a{display:block!important}
 [aria-disabled="true"]{cursor:default!important}
 #comp-kx06xcdz-dropdown-menu{position:absolute;z-index:10001;background:#fff;min-width:140px;box-shadow:0 3px 12px #0002}
+#comp-kx06xcdz-dropdown-menu:not([hidden]){display:block!important}
 #comp-kx06xcdz-dropdown-menu a{display:flex;align-items:center;padding:8px;color:inherit;text-decoration:none}
 #archive-faq-panels [role="region"]{overflow:visible!important}
 #archive-faq-panels [aria-expanded="true"] + div{height:auto!important;max-height:none!important;opacity:1!important}
