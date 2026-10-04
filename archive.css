@@ -15,3 +15,9 @@ nav [id$="moreContainer"] li a{display:block!important}
 nav li[data-index] > a > div > p{line-height:32px}
 nav [data-index] p{line-height:32px!important}
 button:disabled{cursor:default}
+
+/* Visible even when JavaScript is unavailable. Historical source remains in Git. */
+#archive-safety-notice{position:relative!important;z-index:2147483647;box-sizing:border-box!important;width:100%!important;background:#fff3cd!important;color:#322600!important;border-bottom:2px solid #a87500!important;padding:16px 24px!important;font:16px/1.5 system-ui,sans-serif!important;text-align:left!important}
+#archive-safety-notice strong{font-weight:750!important;display:block!important}
+#archive-safety-notice p{margin:4px 0 0!important;font:inherit!important;color:inherit!important}
+.archive-withdrawn-request{background:#fff3cd!important;color:#322600!important;padding:12px!important;font:16px/1.5 system-ui,sans-serif!important}
